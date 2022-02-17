@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+
+:root {
+    --white: #fff;
+    --black: #1c2b2d;
+    --blue: #31326f;
+    --lightblue: #005490;
+    --color-sec: #db6400;
+    --color-primary: #9d0191;
+    --grey: #eee;
+    --dark-grey: #222831;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.counter-div{
+    width: 50%;
+    border: 1px solid gray;
+    padding: 1rem;
+    background: #005490;
+    color: var(--white);
+    text-align: center;
+    border-radius: 5px;
+}
+.counter-div > * {
+    margin-bottom: 2rem;
+}
+.number{
+    font-size: 4rem;
+}
+.buttons button{
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 14px;
+    color: var(--white);
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
+    /* cursor: pointer; */
+}
+
+button.generate{
+    background: white;
+    color: black
+}
